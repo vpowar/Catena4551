@@ -27,4 +27,4 @@ Other controller boards might work but aren't tested yet.
 #### Software 
 Install Arduino IDE
 ### Installation 
-Follow steps [here](https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md) for installing and setting up Catena Boards. It is advisable to visit: https://github.com/mcci-catena/Catena-Sketches and https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md before you proceed any further with this document and code structure. This repository consists of code developed by MCCI and is only an extension/ modification of base code. 
+Follow steps [here](https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md) for installing and setting up Catena Boards. It is advisable to visit: https://github.com/mcci-catena/Catena-Sketches and https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md before you proceed any further with this document and code structure. **This repository consists is based on top of the code developed by MCCI and is only an *extension/ modification* of base code.** 

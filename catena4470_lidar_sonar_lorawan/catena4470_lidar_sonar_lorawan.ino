@@ -598,6 +598,10 @@ void fillBuffer(TxBuffer_t &b)
                     if(current_dist==0 || current_dist<=300 || current_dist>=5000) 
                     {
                       Serial2.flush();
+                      Serial2.end();
+                      delay(3000);
+                      Serial2.begin(9600);
+                      delay(5000);
                       continue;
                     }      
                     

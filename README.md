@@ -34,7 +34,17 @@ Follow the steps before to upload the code to the boards. The feather and catena
 ### Feather M0 with Catena 4450/4470 wings
 
 ### Catena 4551 (Standalone)
+There are two methods to upload code, 1. DFU 2. ST-Link. 
+I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
+#### WINDOWS: 
 
-
-
-
+    Select DFU in the programming method
+    Short BOOT0 and VDD+ with a jumper wire and press reset.
+    Now board enter into DFU Bootloader mode
+    At first time, It ask for driver. (Download Zadig)
+    Start Zadig
+    Select Options -> List All Devices
+    Select STM32 BOOTLOADER from the device dropdown
+    Select WinUSB (v6.1.7600.16385) as new driver
+    Click Replace Driver
+    Now setup is ready. You can compile and upload your code using DFU.

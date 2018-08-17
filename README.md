@@ -41,13 +41,13 @@ There are two methods to upload code,
 I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
 #### WINDOWS: 
 Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
-    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.  
-    - On the Zadig terminal :
-    - Select Options -> List All Devices
-    - Select STM32 BOOTLOADER from the device dropdown
-    - Select WinUSB (v6.1.7600.16385) as new driver
-    - Click Replace Driver
-    - Now setup is ready. You can compile and upload your code using DFU.
+    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.\
+    - On the Zadig terminal :\
+    - Select Options -> List All Devices\
+    - Select STM32 BOOTLOADER from the device dropdown\
+    - Select WinUSB (v6.1.7600.16385) as new driver\
+    - Click Replace Driver\
+    - Now setup is ready. You can compile and upload your code using DFU.\
   Before you upload your code make sure your arduino terminal has the following options selected. 
   
   #### LINUX:

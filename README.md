@@ -35,9 +35,9 @@ Follow the steps before to upload the code to the boards. The feather and catena
 
 ### Catena 4551 (Standalone)
 There are two methods to upload code, 
-``` 1. DFU 
-    2. ST-Link.
-```
+``` 1. DFU ```
+``` 2. ST-Link.```
+
 I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
 #### WINDOWS: 
       Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 

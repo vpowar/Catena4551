@@ -40,7 +40,7 @@ There are two methods to upload code,
 
 I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
 #### WINDOWS: 
-      Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
+Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
     - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.  
     - On the Zadig terminal :
     - Select Options -> List All Devices

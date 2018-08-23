@@ -36,7 +36,7 @@ I have tested the DFU mode with the help of MCCI and below is the procedure I fo
 #### WINDOWS: 
 Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
     - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding.
- ![alt text] (https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/IMG_3762.JPG "")
+ ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/IMG_3762.JPG "Description goes here")
     
      - On the Zadig terminal
     - Select Options -> List All Devices

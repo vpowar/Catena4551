@@ -27,7 +27,7 @@ Other controller boards might work but aren't tested yet.
 #### Software 
 Install Arduino IDE. Follow steps here: 
 ### Installation 
-Follow steps [here](https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md) for installing and setting up Catena Boards. It is advisable to visit: https://github.com/mcci-catena/Catena-Sketches and https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md before you proceed any further with this document and code structure. **This repository contents are based on top of the code developed by MCCI and is only an *extension/ modification* of skeleton code.** 
+Follow steps [here](https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md) for installing and setting up Catena Boards. It is advisable to visit: https://github.com/mcci-catena/Catena-Sketches and https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md before you proceed any further with this document and code structure. **The contents of this repository are based on top of the code developed by MCCI and this is only an *extension/ modification* of skeleton code.** Different sensors have been interfaced on top of MCCI's code in this repo. 
 
 ## Uploading Code
 Follow the steps before to upload the code to the boards. The feather and catena stack has easy interface of code 
@@ -41,7 +41,8 @@ There are two methods to upload code,
 I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
 #### WINDOWS: 
 Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
-    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.\
+    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding. \
+    
     - On the Zadig terminal :\
     - Select Options -> List All Devices\
     - Select STM32 BOOTLOADER from the device dropdown\

@@ -19,7 +19,7 @@ OR
 `````` 
 Other controller boards might work but aren't tested yet. 
 #### Software 
-Install Arduino IDE. Follow steps here: 
+Install Arduino IDE. Follow steps [here](https://www.arduino.cc/en/Main/Software): 
 
 ### Installation 
 Follow steps [here](https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md) for installing and setting up Catena Boards. It is advisable to visit: https://github.com/mcci-catena/Catena-Sketches and https://github.com/mcci-catena/Catena-Sketches/blob/master/catena4450m101_sensor/README.md before you proceed any further with this document and code structure. **The contents of this repository are based on top of the code developed by MCCI and this is only an *extension/ modification* of skeleton code.** Different sensors have been interfaced on top of MCCI's code in this repo. 
@@ -34,16 +34,22 @@ There are two methods to upload code,
 
 I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
 #### WINDOWS: 
-Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
-    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding.
- ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/IMG_3762.JPG "Description goes here")
+1. INSTALL ZADIG:
+
+You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
+
+2. Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding.
+ ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/catena4551_connection.jpg "Description goes here")
     
-     - On the Zadig terminal
-    - Select Options -> List All Devices
-    - Select STM32 BOOTLOADER from the device dropdown
-    - Select WinUSB (v6.1.7600.16385) as new driver
-    - Click Replace Driver
-    - Now setup is ready. You can compile and upload your code using DFU.
+ 3. On the Zadig terminal- Select Options -> List All Devices
+ 
+ 4. Select STM32 BOOTLOADER from the device dropdown
+ 
+ 5. Select WinUSB (v6.1.7600.16385) as new driver
+ 
+ 6. Click Replace Driver
+ 
+ 7. Now setup is ready. You can compile and upload your code using DFU.
   Before you upload your code make sure your arduino terminal has the following options selected. 
   
   #### LINUX:

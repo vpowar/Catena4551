@@ -1,5 +1,6 @@
 # LoRaWAN_SensorNetworks-Catena
 This repository is a work-in progress under the Intelligent River v2.0 project at Clemson University,SC. The goal is to interface Catena 4551 OR Catena 4450/4470 with Adafruit Feather M0, developed by [MCCI Corporation](http://www.mcci.com/mcci-v5/index.html) with different environmental sensors for water,air and soil quality monitoring. This project is based on [LoRaWAN](https://lora-alliance.org/about-lorawan) (Low Power Wide Area Network) designed to wirelessly connect battery operated ‘things’ to the internet in regional, national or global networks, and targets key Internet of Things (IoT) requirements such as bi-directional communication, end-to-end security, mobility and localization services. Thus, we have implemented a bunch of IoT nodes on different Clemson streams and channels to monitor rain water inflow and storm water wash-off. IoT nodes by definition are controllers coupled with environmental sensors, that act as radio nodes(or modules) connected to central gateway for IoT purposes.
+
 For more details about the project                       :   http://river.info/     
 For more details on the controller board(data logger)    :   https://github.com/mcci-catena  
 (Catena 4551 OR Catena 4450/4470)
@@ -34,16 +35,15 @@ There are two methods to upload code,
 I have tested the DFU mode with the help of MCCI and below is the procedure I followed; note that based on your working environment you would have to follow different procedures. 
 #### WINDOWS: 
 Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
-    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding. \
+    - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding.
+     [](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/commit/46ac4cdf5728b9d74772d2fd50c08202de6779f1)
     
-    
-    
-    - On the Zadig terminal :\
-    - Select Options -> List All Devices\
-    - Select STM32 BOOTLOADER from the device dropdown\
-    - Select WinUSB (v6.1.7600.16385) as new driver\
-    - Click Replace Driver\
-    - Now setup is ready. You can compile and upload your code using DFU.\
+     - On the Zadig terminal
+    - Select Options -> List All Devices
+    - Select STM32 BOOTLOADER from the device dropdown
+    - Select WinUSB (v6.1.7600.16385) as new driver
+    - Click Replace Driver
+    - Now setup is ready. You can compile and upload your code using DFU.
   Before you upload your code make sure your arduino terminal has the following options selected. 
   
   #### LINUX:

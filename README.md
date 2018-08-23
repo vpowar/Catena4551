@@ -9,7 +9,7 @@ For more details on network & data connectivity platform :   https://www.thethin
 These instructions will get you a copy of the project up and running for development and testing purposes. See deployment for notes on how to deploy the project on a live system. You will need the following hardware platforms/controller boards and softwares, libraries etc. before you dive straight into IoT communication. 
 ### Prerequisites 
 #### Controller Platforms:
-It is advisable to have following controller platforms:\
+It is advisable to have following controller platforms:
 ````
 1. Adafruit Feather M0 and 
 2. Catena Wing 4450/4470 
@@ -35,6 +35,8 @@ I have tested the DFU mode with the help of MCCI and below is the procedure I fo
 #### WINDOWS: 
 Note: You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
     - Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding. \
+    
+    
     
     - On the Zadig terminal :\
     - Select Options -> List All Devices\

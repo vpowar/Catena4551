@@ -74,11 +74,11 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
   
   - Give root permissions using 'sudo' whenever necessary. Make sure and ensure your user is in the plugdev group. 
   
-  - You can check by typing `````$groups username `````
+  - You can check by typing `````$groups USERNAME `````
   
-  - OR ADD YOUR $USER to PLUGDEV by TYPING: 
+  - OR add your $USER to plugdev by typing: 
   
-  ````` sudo adduser $USER plugdev ````` 
+  ````` sudo adduser USERNAME plugdev ````` 
   
   Once your $USER has plugdev previliges, you are all set to go. 
   
@@ -88,7 +88,7 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
   
   3. Reboot the computing device to ensure all changes have taken place. 
   
-  #### Mac OS X and Chromebook Users: 
+  #### MAC OS X and CHROMEBOOK: 
   The board will just plug in and work, without drivers!
    
   

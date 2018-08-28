@@ -1,4 +1,4 @@
-# LoRaWAN_SensorNetworks-Catena
+https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/extra/Zadig_02.png# LoRaWAN_SensorNetworks-Catena
 This repository is a work-in progress under the Intelligent River v2.0 project at Clemson University,SC. The goal is to interface Catena 4551 OR Catena 4450/4470 with Adafruit Feather M0, developed by [MCCI Corporation](http://www.mcci.com/mcci-v5/index.html) with different environmental sensors for water,air and soil quality monitoring. This project is based on [LoRaWAN](https://lora-alliance.org/about-lorawan) (Low Power Wide Area Network) designed to wirelessly connect battery operated ‘things’ to the internet in regional, national or global networks, and targets key Internet of Things (IoT) requirements such as bi-directional communication, end-to-end security, mobility and localization services. Thus, we have implemented a bunch of IoT nodes on different Clemson streams and channels to monitor rain water inflow and storm water wash-off. IoT nodes by definition are controllers coupled with environmental sensors, that act as radio nodes(or modules) connected to central gateway for IoT purposes.
 
 For more details about the project                       :   http://river.info/     
@@ -50,7 +50,7 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
  
  6. Click Replace Driver
  
- 
+[alt text] (https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/extra/Zadig_02.png "Zadig Options")
  7. Now setup is ready. You can compile and upload your code using DFU.
   Before you upload your code make sure your arduino terminal has the following options selected. 
   

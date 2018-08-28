@@ -58,7 +58,7 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
   
   ````TOOLS --> SERIAL INTERFACE - "NO SERIAL" && UPLOAD METHOD - DFU" && USB INTERFACE - "USB SERIAL" && PROGRAMMER - "STM 32 BOOTLOADER"````
   
-  ![](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/extra/ArduinoSettings.png|height=48)
+  ![](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/extra/ArduinoSettings.png)
   
   #### LINUX:
   

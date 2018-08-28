@@ -53,7 +53,7 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
 ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/extra/Zadig_02.png "Zadig Options")
  
  
- [IMPORTANT_UPLOAD_STEP]
+ ##### IMPORTANT_UPLOAD_STEP
  
  7. Now setup is ready. You can compile and upload your code using DFU.
   Before you upload your code make sure your arduino terminal has the following options selected.

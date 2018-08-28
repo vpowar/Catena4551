@@ -1,4 +1,4 @@
-#LoRaWAN_SensorNetworks-Catena
+# LoRaWAN_SensorNetworks-Catena
 
 This repository is a work-in progress under the Intelligent River v2.0 project at Clemson University,SC. The goal is to interface Catena 4551 OR Catena 4450/4470 with Adafruit Feather M0, developed by [MCCI Corporation](http://www.mcci.com/mcci-v5/index.html) with different environmental sensors for water,air and soil quality monitoring. This project is based on [LoRaWAN](https://lora-alliance.org/about-lorawan) (Low Power Wide Area Network) designed to wirelessly connect battery operated ‘things’ to the internet in regional, national or global networks, and targets key Internet of Things (IoT) requirements such as bi-directional communication, end-to-end security, mobility and localization services. Thus, we have implemented a bunch of IoT nodes on different Clemson streams and channels to monitor rain water inflow and storm water wash-off. IoT nodes by definition are controllers coupled with environmental sensors, that act as radio nodes(or modules) connected to central gateway for IoT purposes.
 

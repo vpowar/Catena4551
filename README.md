@@ -39,15 +39,17 @@ I have tested the DFU mode with the help of MCCI and below is the procedure I fo
 You would have to install Zadig from here: https://zadig.akeo.ie/. This software is used to set the driver address. Download and install the software. Launch the .exe icon. 
 
 2. Next, Short BOOT0 and VDD+ with a jumper wire on the 4551 board and press reset. This enables the bootloading mode to transfer code to the board.See the images below for deatiled understanding.
- ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/catena4551_connection.jpg "Description goes here")
+ ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/catena4551_connection.jpg "catena4551_jumper connection")
     
  3. On the Zadig terminal- Select Options -> List All Devices
+ ![alt text](https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/extra/Zadig_01.png "Zadig Options")
  
  4. Select STM32 BOOTLOADER from the device dropdown
  
  5. Select WinUSB (v6.1.7600.16385) as new driver
  
  6. Click Replace Driver
+ 
  
  7. Now setup is ready. You can compile and upload your code using DFU.
   Before you upload your code make sure your arduino terminal has the following options selected. 

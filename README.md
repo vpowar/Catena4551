@@ -90,6 +90,8 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
   
   3. Reboot the computing device to ensure all changes have taken place. 
   
+  4. Before you upload the program using Arduino IDE, make sure you have selected the right options as outline [here] (https://github.com/vpowar/LoRaWAN_SensorNetworks-Catena/blob/master/README.md#important_upload_step)
+  
   #### MAC OS X and CHROMEBOOK: 
   The board will just plug in and work, without drivers!
    

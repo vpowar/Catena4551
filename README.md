@@ -63,23 +63,26 @@ You would have to install Zadig from here: https://zadig.akeo.ie/. This software
   #### LINUX:
   
   1. Install the rules from [drivers/linux/mccicatena4551.rules](https://github.com/mcci-catena/Arduino_Core_STM32/tree/master/drivers/linux)
-  - On a terminal you can simply do the following: 
-  `````$wget https://raw.githubusercontent.com/mcci-catena/Arduino_Core_STM32/master/drivers/linux/mccicatena4551.rules `````
+ On a terminal you can simply do the following: 
   
-  `````$mv /downloaded_filelocation/mccicatena4551.rules /etc/udev/rules.d `````
+  - `````$wget https://raw.githubusercontent.com/mcci-catena/Arduino_Core_STM32/master/drivers/linux/mccicatena4551.rules `````
+  
+  - `````$mv /downloaded_filelocation/mccicatena4551.rules /etc/udev/rules.d `````
   
   2. Reload rules or Restart dbus deamon
-  ````` $udevadm control --reload-rules `````
+  - ````` $udevadm control --reload-rules `````
   
-  Give root permissions using 'sudo' whenever necessary. Make sure and ensure your user is in the plugdev group. 
+  - Give root permissions using 'sudo' whenever necessary. Make sure and ensure your user is in the plugdev group. 
   
-  You can check by typing `````$groups username `````
+  - You can check by typing `````$groups username `````
   
-  OR ADD YOUR $USER to PLUGDEV by TYPING: 
+  - OR ADD YOUR $USER to PLUGDEV by TYPING: 
   
   ````` sudo adduser $USER plugdev ````` 
   
-  Once your $USER has plugdev previliges, you are all set to go. Alternatively you could also restart the dbus deamon by typing
+  Once your $USER has plugdev previliges, you are all set to go. 
+  
+  - Alternatively you could also restart the dbus deamon by typing
   
   ````` kill -HUP pid`````
   
